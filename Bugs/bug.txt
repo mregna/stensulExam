@@ -1,0 +1,16 @@
+Bug 1
+Title: Do not edit the image of the article when editing
+Description: Al editar un item, elegir una nueva imagen y guardar el cambio, no se guarda la nueva imagen.
+Wanted behavior: cuando edito un item, debo poder editar y elegi una nueva imagen.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Bug 2
+Title: The image input is not cleaned after creating an item
+Description: Luego de crear un nuevo item con imagen y texto, el input de imagen no se limpia, queda seteada la imagen del item creado.
+Wanted behavior: Luego de crear un nuevo item, tanto el textarea como el input de imagen se deben limpiar.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Bug 3
+Title: Canceling the editing of an item does not clean the textarea
+Description: Al editar un item con un texto mayor a 300 caracteres y cancelar dicha edición, no se limpia el textarea.
+Wanted behavior: al cancelar una edición, se debe limpiar el textarea
